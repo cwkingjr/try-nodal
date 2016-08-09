@@ -1,0 +1,23 @@
+{
+  "name": "try-nodal",
+  "version": "0.0.0",
+  "description": "try-nodal",
+  "author": "Chuck King",
+  "main": "cluster.js",
+  "engines": {
+    "node": "6.0.0"
+  },
+  "dependencies": {
+    "nodal": "0.12.7"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~2.4.5"
+  },
+  "scripts": {
+    "test": "mocha ./test/runner.js",
+    "start": "node cluster.js",
+    "worker": "node worker.js"
+  },
+  "private": true
+}
